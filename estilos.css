@@ -1,0 +1,395 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body { 
+	margin-bottom:0;
+    padding: 0px 0 0 0;
+
+}
+
+header {
+    background: #fff;
+}
+
+h1 {
+	font-family: 'Julius Sans One', sans-serif;
+	text-decoration: none;
+	list-style: none;
+	color: black;
+	position:relative;
+}
+
+h2, h3 {
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+
+/* menu */ 
+
+
+.jumbotron-fluid {
+	padding-bottom: 20px;
+}
+
+.nav-link {
+	color: #495057;
+}
+
+a {
+	color: #495057;
+}
+
+@media (max-width: 769px){
+.navbar-small {
+    background-color: #fcdcdc!important;
+}
+}
+
+.text-dark-font {
+    font-size: 1rem;
+}
+
+nav li:hover {
+    transform: scale(1.1,1.1);
+}
+
+
+@media only screen and (min-width: 771px){
+li .dropdown-menu {
+    background: #fcdcdc;
+    min-width: 260px;
+}
+}
+
+
+
+
+
+
+/*carousel*/ 
+
+.container-top {
+	padding-top: 10px;
+} 
+ 
+section .carousel-indicators li {
+width: 10px;
+height: 10px;
+border-radius: 100%;
+} 
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+
+
+
+
+/* newsletter */
+
+@media (max-width: 768px){
+	.container-fluid-xs h3{
+		font-size: 20px;
+	}
+}
+
+
+
+
+
+
+/*pagina principal*/ 
+
+.bg-cover-principal {
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+    background-size: cover!important;
+}
+
+.justify-content-end {
+    justify-content: flex-end!important;
+}
+
+.card-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+} 
+
+.card-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% + .25rem);
+    height: 100%;
+    transition: all .2s ease-in-out;
+    transition-property: transform;
+}
+
+
+.card-bg~* {
+    z-index: 1;
+}
+.card>* {
+    flex-shrink: 0;
+}
+
+.card-lg .card-body, .card-lg .card-footer {
+    padding: 2rem;
+}
+.m-6 {
+    margin: 1.5rem!important;
+}
+.bg-white {
+    background-color: #fff!important;
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+.display-4 {
+    font-size: 3.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+div .card-body-medio {  
+	flex: 0 0 auto;
+}
+
+
+.fontsize-cell {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px){
+.fontsize-cell {
+    font-size: 0.7rem;
+}
+}
+
+
+.container-top-index {
+    padding-top: 25px;
+}
+
+
+
+
+
+
+/*quienes somos*/ 
+.card-body-font {
+	font-size: 1.1rem;
+	text-align: justify;
+}
+
+.card-nosotros {
+	width: 400px;
+}
+
+@media (max-width: 768px){
+.card-group .card {
+    width: 350px;
+}
+}
+
+@media (max-width: 768px){
+.clearfix .card {
+    width: 300px;
+}
+}
+
+
+/*contacto*/ 
+
+.contact-form-box {
+    padding: 30px 80px 30px 80px;
+    margin: 80px 80px 30px 80px;
+    -webkit-box-shadow: rgba(0,0,0,0.17) 0 5px 13px;
+    -moz-box-shadow: rgba(0,0,0,0.17) 0 5px 13px;
+    box-shadow: rgba(0,0,0,0.17) 0 5px 13px;
+}
+
+@media (max-width: 768px){
+.contact-form-box {
+    padding: 30px 0 20px 10px;
+    margin: 20px 0px 0px 0px;
+}
+}
+
+.contact-form-box {
+	background: repeat-y right top white;
+	background-image color: #DFDBE5;
+}
+
+@media (max-width: 768px){
+.imagen-contacto {
+    height: 100%;
+    width: 100%;
+}
+}
+
+
+/*productos*/ 
+
+.caption h3, .caption .price-mob {
+    font-size: 0.95rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222222;
+}
+
+.product-block .caption {
+	min-height: 150px;
+}
+
+
+.caption h3 a {
+	color: #8a8a8a;
+}
+
+.caption .price-mob {
+	color: #8a8a8a;
+}
+
+h3 a {
+	color: #8a8a8a;
+}
+
+
+
+/*faq*/
+
+@media (max-width: 979px) and (min-width: 768px){
+.row-fluid {
+    width: 100%;
+}
+}
+
+.container-top-faq {
+    padding-top: 230px;
+} 
+
+@media (max-width: 767px){
+.title-container {
+    text-align: center;
+}
+}
+
+.texto {
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.breadcrumbs {
+    text-align: right;
+}
+
+@media (max-width: 767px){
+.breadcrumbs {
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+}
+
+
+/*footer*/
+.bg-cover-footer {
+	background-size: cover;
+	background-position: center center;
+}
+
+.pb-12, .py-12 {
+    padding-bottom: 6rem!important;
+}
+.pt-12, .py-12 {
+    padding-top: 6rem!important;
+	}
+
+.mb-7, .my-7 {
+    margin-bottom: 2rem!important;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.font-size-lg {
+    font-size: 1.125rem!important;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+dl, ol, ul {
+    margin-bottom: 1.5rem;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.text-gray-300 {
+    color: #bababa!important;
+}
+a {
+    transition: all .1s ease-in-out;
+    transition-property: color;
+}
+a {
+    color: #ff6f61;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.font-size-xxs {
+    font-size: .8125rem!important;
+}
+.text-muted {
+    color: #767676!important;
+}
+@media (min-width: 768px)
+.mb-md-0, .my-md-0 {
+    margin-bottom: 0!important;
+}
+.mb-3, .my-3 {
+    margin-bottom: .75rem!important;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.col-auto {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+}
+
+.pb-6, .py-6 {
+    padding-bottom: 1.5rem!important;
+}
+.pt-6, .py-6 {
+    padding-top: 1.5rem!important;
+}
