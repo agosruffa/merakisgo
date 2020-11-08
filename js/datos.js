@@ -1,0 +1,12 @@
+let baseDeDatos = [{"id":1,"nombre":"Aros Golden","precio":550,"imagen":"media/productos/arosdorados1.png"},
+{"id":2,"nombre":"Vincha Trenzada","precio":850,"imagen":"media/productos/vinchascolores.png"},
+{"id":3,"nombre":"Aros Rose","precio":450,"imagen":"media/productos/arosdorados2.png"},
+{"id":4,"nombre":"Pulseras Acero Blanco","precio":700,"imagen":"media/productos/pulserasacero.png"},
+{"id":5,"nombre":"Vestido Mary","precio":2000,"imagen":"media/productos/vestido4.png"},
+{"id":6,"nombre":"Billetera Boca","precio":1500,"imagen":"media/productos/billeteras1.png"},
+{"id":7,"nombre":"Vestido Matilda","precio":2900,"imagen":"media/productos/vestidomatilda.png"},
+{"id":8,"nombre":"Colitas lazos","precio":250,"imagen":"media/productos/colitas.png"},
+{"id":9,"nombre":"Vestido Francisca","precio":2500,"imagen":"media/productos/vestidofrancisca.png"},
+{"id":10,"nombre":"Colitas Moño","precio":200,"imagen":"media/productos/colitasmoño.png"},
+{"id":11,"nombre":"Aros Luck","precio":350,"imagen":"media/productos/arosdorados3.png"},
+{"id":12,"nombre":"Turbantes","precio":900,"imagen":"media/productos/turbantes.png"}];

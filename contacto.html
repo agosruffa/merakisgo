@@ -128,10 +128,45 @@
       </div>
     </div>   
   </section>  
+  <br>
+  <br>
+  <br>
+  <section>
+  <br>
+  <br>
+  <br>
+    <div class="row-fluid">
+      <div class="container">
+        <div class="row title-container border-bottom">
+          <div class="col-lg-8">
+            <h3>Comentanos tu Experiencia y Conoce la de Otros Clientes</h3>
+          </div>
+          <div class="col-lg-4">
+            <div class="breadcrumbs m-top-xs">
+              <a class="breadcrumb-crumb text-dark" href="index.html">Inicio</a>
+            </div>
+          </div>
+        </div>
         <br>
         <br>
+      <p id="mensajeGenerado"></p>
+      <button id="bPublicacion" class="btn btn-light">COMENTAR</button>
+      <br>
+      <br>
+      <form id="fPublicacion">
+        <input type="text" class="form-control" name="title" placeholder="Título">
+        <textarea class="form-control" rows="6" id="comment" name="body" placeholder="Escribe aquí tu comentario..."></textarea>
+        <select id="usuarioGenerado" class="form-control"></select>
         <br>
-
+        <input class="btn btn-light" type="submit" value="PUBLICAR">
+      </form>
+      <br>
+      <br>
+      <div id="comentarios"></div> 
+    </div>
+  </section>
+  <br>
+  <br>
   <section>
     <div style="background:#fcdcdc !important" class="container-fluid container-fluid-xs mt-3 pt-1 pb-1">
       <h3 class="text-center">Newsletter</h3>
@@ -240,10 +275,15 @@
   </section>
 
 
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script src="js/jquery.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="js/datos.js"></script>
+  <script src="js/contacto.js"></script>
 </body>
 </html>
 
 
+
+  
+  

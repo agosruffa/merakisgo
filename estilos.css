@@ -305,6 +305,17 @@ h3 a {
 }
 }
 
+/*FAQS j-query*/
+.faq_question {
+    display: inline-block;
+    cursor: pointer;
+}
+ 
+.faq_answer_container {
+    height: 0px;
+    overflow: hidden;
+    padding: 0px;
+}
 
 /*footer*/
 .bg-cover-footer {

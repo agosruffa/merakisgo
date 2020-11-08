@@ -1,2 +1,0 @@
-# merakisgo
- proyecto entrega final
